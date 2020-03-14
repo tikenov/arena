@@ -1,11 +1,12 @@
 {
-  "__example_queues": [
+  "queues": [
     {
-      "name": "my_queue",
-      "port": 6381,
+      "name": "fetch_metrics",
+      "port": 6379,
       "host": "127.0.0.1",
-      "hostId": "AWS Server 2"
+      "hostId": "localhost",
+      "type": "bull",
+      "prefix": "bull.fetch-metrics"
     }
-  ],
-  "queues": []
+  ]
 }
